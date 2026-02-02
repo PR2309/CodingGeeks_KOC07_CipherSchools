@@ -1,7 +1,9 @@
 *{
 	margin:auto;
 	padding:auto;
+	scrollbar-width: none;
 }
+
 .top{
 	width:100%;
 	background-color:#2FA5EB !important;
@@ -126,6 +128,8 @@ button{
 	width:100%;
 	background-color:#2FA5EB !important;
 	border-bottom:2px solid #f0f0f0;
+	position:absolute;
+	bottom:0%;
 }
 .nav_down div{
 	width:1200px;
