@@ -79,6 +79,12 @@
 	font-size:20px;
 }
 
+.bottom_wrap{
+  width:1200px;
+  margin:auto;
+  display:flex;
+  align-items:flex-start;
+}
 .bottom_up{
 	width:100%;
 	background-color:white;
@@ -86,7 +92,7 @@
 }
 .bottom_up div{
 	padding-top:20px;
-	width:1200px;
+	width:60vw;
 	text-align:center;
 	background-color:white;
 	font-family:forte;
@@ -96,11 +102,10 @@
 .bottom_up div table{
 	padding-top:30px;
 	font-size:30px;
-	width:1100px;
+	width:40vw;
 	text-align:center;
 	background-color:white;
 	font-family:calibri;
-	
 }
 
 input[type="text"]{
@@ -123,13 +128,10 @@ button{
 	background-color:#2FA5EB !important;
 }
 
-
 .nav_down{
 	width:100%;
 	background-color:#2FA5EB !important;
 	border-bottom:2px solid #f0f0f0;
-	position:absolute;
-	bottom:0%;
 }
 .nav_down div{
 	width:1200px;
@@ -142,8 +144,10 @@ button{
 
 #ii{
 	color:black;
+	font-family:calibri;
 }
 
 #pi{
 	padding-left: 10px;
+	width:250px;
 }
